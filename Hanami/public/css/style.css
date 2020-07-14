@@ -1,0 +1,237 @@
+body {
+    background-color: #24323D;
+}
+
+body .container {
+    max-width: 1300px;
+}
+
+#titleIngreso {
+    position: relative;
+    left: 42%;
+    bottom: -30px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #BDC4CA;
+}
+
+.input {
+    background-color: #24323D;
+    position: relative;
+    left: 30%;
+    top: 40px;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 20px;
+    color: #BDC4CA;
+}
+
+.labelInput {
+    position: relative;
+    left: 30%;
+    top: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #BDC4CA;
+}
+
+#inputEmail {
+    margin-left: 51px;
+    margin-top: 30px;
+}
+
+#botonSubmit {
+    margin-top: 30px;
+    position: relative;
+    top: 40px;
+    left: 43.5%;
+    height: 45px;
+    width: 90px;
+    font-size: 25px;
+    background-color: #23AC89;
+    color: #BDC4CA;
+    border-color: #23AC89;
+}
+
+
+/*Registro*/
+
+#barraNavRegistro a {
+    left: 86%;
+}
+
+#titleRegistro {
+    position: relative;
+    left: 55%;
+    bottom: -30px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #BDC4CA;
+}
+
+#imagenPersonaRegistro {
+    border-radius: 100px;
+    width: 100px;
+    weight: 100px;
+    position: relative;
+    left: 550px;
+    top: 10px;
+}
+
+#subirFotoRegistro {
+    position: relative;
+    left: 300px;
+    top: 25px;
+}
+
+form .paises {
+    color: #BDC4CA;
+    position: relative;
+    left: 30%;
+    width: 100px;
+    height: 40px;
+    background-color: #24323D;
+    margin-top: 40px;
+}
+
+#botonSubmitRegistro {
+    margin-top: 30px;
+    position: relative;
+    top: 20px;
+    left: 60%;
+    height: 45px;
+    width: 90px;
+    font-size: 25px;
+    background-color: #23AC89;
+    color: #BDC4CA;
+    border-color: #23AC89;
+}
+
+
+/*Aqui comienza el estilo del home*/
+
+#bodyHome {
+    background-color: #ebebeb;
+}
+
+#banner {
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    position: relative;
+    top: 40px;
+    left: 28%;
+}
+
+#titleHome {
+    color: white;
+    position: relative;
+    left: 42%;
+    bottom: 80px;
+    font-size: 70px;
+    font-family: serif;
+}
+
+a .logos {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 50%;
+    margin-left: 15px;
+    border-radius: 100px;
+}
+
+.vip-products .product:hover {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 6);
+    /* border-color: rgb(3, 30, 31);*/
+}
+
+.vip-products .product h2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.vip-products .product div img {
+    width: 250px;
+    height: 250px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer #mapa {
+    align-items: center;
+    margin: 0 auto;
+    align-content: center;
+}
+
+footer #infoHome {
+    color: rgb(216, 230, 247);
+    font-size: 17px;
+    opacity: 0.9;
+}
+
+footer #barraNavHome a {
+    color: rgb(216, 230, 247);
+    position: relative;
+    left: 60%;
+    text-decoration: none;
+}
+
+
+/* Perfil de Usuario */
+
+#fotoPerfil {
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+
+
+/*HomeLogin*/
+
+#banner #barraNavHome .seccionPerfil #imgPerfilHome {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    position: relative;
+    left: 23.5%;
+}
+
+#banner #barraNavHome .seccionPerfil .buttonLoginHome {
+    float: right;
+    width: 80px;
+    height: 20px;
+    font-size: 15px;
+    background-color: #23AC89;
+    color: rgb(179, 174, 174);
+    border-color: #23AC89;
+    margin-left: 10px;
+    margin-top: 90px;
+    margin-right: 15px;
+}
+
+
+/* AQUI COMIENZA EL CATALOGO*/
+
+body header #divLogoCatalogo {
+    background-image: url(../images/backgroundBanner.png);
+    background-size: auto;
+}
+
+body header #divLogoCatalogo #logoCatalogo {
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    margin-bottom: 15%;
+}
